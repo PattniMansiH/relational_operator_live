@@ -64,8 +64,8 @@ function pikachu() {
 function bheem() {
     var k = document.forms["M"]["m1"].value
     var l = document.forms["M"]["m2"].value
-    var notequal = k <= l
-    if( k <= l){
+    var notequal = k != l
+    if( k != l){
         document.body.style.backgroundColor = "green";
     }
     else {
