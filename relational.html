@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="./relational.js"></script>
+<style>
+    .main_body {
+        background-color: whitesmoke;
+        margin: 0%;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh;
+    }
+
+    .div {
+        background-color: white;
+        height: 330px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 1px 5px 10px 0.5px gray;
+    }
+
+    .input {
+        margin: 10px;
+        margin-left: 15px;
+        padding: 12px;
+        width: 300px;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+
+    .button1 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .button2 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 120.5px;
+        margin-top: 15px;
+        font-size: 35px;
+
+    }
+
+    .button3 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .button4 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 120.5px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .button5 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .button6 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 120.5px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .button1:hover {
+        background-color: rgb(214, 214, 214);
+    }
+
+    .button2:hover {
+        background-color: rgb(214, 214, 214);
+    }
+
+    .button3:hover {
+        background-color: rgb(214, 214, 214);
+    }
+
+    .button4:hover {
+        background-color: rgb(214, 214, 214);
+    }
+    .button5:hover {
+        background-color: rgb(214, 214, 214);
+    }
+
+    .button6:hover {
+        background-color: rgb(214, 214, 214);
+    }
+    @media only screen and (max-width: 400px) {
+       .main_body {
+       background-color: white;
+     }
+     
+     
+}
+</style>
+
+<body class="main_body">
+    <div class="div">
+        <form name="M" method="post" onsubmit="doSubmit()" action="">
+            <input type="text" name="m1" id="m1" autocomplete="off" class="input" placeholder="input value" />
+            <input type="text" name="m2" id="m2" autocomplete="off" class="input"  placeholder="input value"/><br>
+            <button onclick="teddy();return false" class="button1">
+                < </button>
+                    <button onclick="mickey();return false" class="button2"> > </button>
+                    <button onclick="oggy(); return false" class="button3">
+                        <= </button>
+                            <button onclick="ninjahattori(); return false" class="button4"> >= </button>
+                            <button onclick="pikachu(); return false" class="button5"> == </button>
+                            <button onclick="bheem(); return false" class="button6"> != </button>
+
+        </form>
+    </div>
+</body>
+
+</html>
